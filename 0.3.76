@@ -1,0 +1,41 @@
+Requirement already satisfied: langchain-core in c:\users\envy\onedrive\desktop\book recommender\venv\lib\site-packages (0.1.53)
+Collecting langchain-core
+  Using cached langchain_core-0.3.76-py3-none-any.whl.metadata (3.7 kB)
+Collecting langsmith>=0.3.45 (from langchain-core)
+  Downloading langsmith-0.4.30-py3-none-any.whl.metadata (14 kB)
+Requirement already satisfied: tenacity!=8.4.0,<10.0.0,>=8.1.0 in c:\users\envy\onedrive\desktop\book recommender\venv\lib\site-packages (from langchain-core) (8.5.0)
+Requirement already satisfied: jsonpatch<2.0,>=1.33 in c:\users\envy\onedrive\desktop\book recommender\venv\lib\site-packages (from langchain-core) (1.33)
+Requirement already satisfied: PyYAML>=5.3 in c:\users\envy\onedrive\desktop\book recommender\venv\lib\site-packages (from langchain-core) (6.0.2)
+Requirement already satisfied: typing-extensions>=4.7 in c:\users\envy\onedrive\desktop\book recommender\venv\lib\site-packages (from langchain-core) (4.15.0)
+Requirement already satisfied: packaging>=23.2 in c:\users\envy\onedrive\desktop\book recommender\venv\lib\site-packages (from langchain-core) (23.2)
+Requirement already satisfied: pydantic>=2.7.4 in c:\users\envy\onedrive\desktop\book recommender\venv\lib\site-packages (from langchain-core) (2.11.9)
+Requirement already satisfied: jsonpointer>=1.9 in c:\users\envy\onedrive\desktop\book recommender\venv\lib\site-packages (from jsonpatch<2.0,>=1.33->langchain-core) (3.0.0)
+Requirement already satisfied: httpx<1,>=0.23.0 in c:\users\envy\onedrive\desktop\book recommender\venv\lib\site-packages (from langsmith>=0.3.45->langchain-core) (0.28.1)
+Requirement already satisfied: orjson>=3.9.14 in c:\users\envy\onedrive\desktop\book recommender\venv\lib\site-packages (from langsmith>=0.3.45->langchain-core) (3.11.3)
+Requirement already satisfied: requests-toolbelt>=1.0.0 in c:\users\envy\onedrive\desktop\book recommender\venv\lib\site-packages (from langsmith>=0.3.45->langchain-core) (1.0.0)
+Requirement already satisfied: requests>=2.0.0 in c:\users\envy\onedrive\desktop\book recommender\venv\lib\site-packages (from langsmith>=0.3.45->langchain-core) (2.32.5)
+Requirement already satisfied: zstandard>=0.23.0 in c:\users\envy\onedrive\desktop\book recommender\venv\lib\site-packages (from langsmith>=0.3.45->langchain-core) (0.24.0)
+Requirement already satisfied: annotated-types>=0.6.0 in c:\users\envy\onedrive\desktop\book recommender\venv\lib\site-packages (from pydantic>=2.7.4->langchain-core) (0.7.0)
+Requirement already satisfied: pydantic-core==2.33.2 in c:\users\envy\onedrive\desktop\book recommender\venv\lib\site-packages (from pydantic>=2.7.4->langchain-core) (2.33.2)
+Requirement already satisfied: typing-inspection>=0.4.0 in c:\users\envy\onedrive\desktop\book recommender\venv\lib\site-packages (from pydantic>=2.7.4->langchain-core) (0.4.1)
+Requirement already satisfied: anyio in c:\users\envy\onedrive\desktop\book recommender\venv\lib\site-packages (from httpx<1,>=0.23.0->langsmith>=0.3.45->langchain-core) (4.10.0)
+Requirement already satisfied: certifi in c:\users\envy\onedrive\desktop\book recommender\venv\lib\site-packages (from httpx<1,>=0.23.0->langsmith>=0.3.45->langchain-core) (2025.8.3)
+Requirement already satisfied: httpcore==1.* in c:\users\envy\onedrive\desktop\book recommender\venv\lib\site-packages (from httpx<1,>=0.23.0->langsmith>=0.3.45->langchain-core) (1.0.9)
+Requirement already satisfied: idna in c:\users\envy\onedrive\desktop\book recommender\venv\lib\site-packages (from httpx<1,>=0.23.0->langsmith>=0.3.45->langchain-core) (3.10)
+Requirement already satisfied: h11>=0.16 in c:\users\envy\onedrive\desktop\book recommender\venv\lib\site-packages (from httpcore==1.*->httpx<1,>=0.23.0->langsmith>=0.3.45->langchain-core) (0.16.0)
+Requirement already satisfied: charset_normalizer<4,>=2 in c:\users\envy\onedrive\desktop\book recommender\venv\lib\site-packages (from requests>=2.0.0->langsmith>=0.3.45->langchain-core) (3.4.3)
+Requirement already satisfied: urllib3<3,>=1.21.1 in c:\users\envy\onedrive\desktop\book recommender\venv\lib\site-packages (from requests>=2.0.0->langsmith>=0.3.45->langchain-core) (2.5.0)
+Requirement already satisfied: sniffio>=1.1 in c:\users\envy\onedrive\desktop\book recommender\venv\lib\site-packages (from anyio->httpx<1,>=0.23.0->langsmith>=0.3.45->langchain-core) (1.3.1)
+Using cached langchain_core-0.3.76-py3-none-any.whl (447 kB)
+Downloading langsmith-0.4.30-py3-none-any.whl (386 kB)
+   ---------------------------------------- 386.3/386.3 kB 1.9 MB/s eta 0:00:00
+Installing collected packages: langsmith, langchain-core
+  Attempting uninstall: langsmith
+    Found existing installation: langsmith 0.1.147
+    Uninstalling langsmith-0.1.147:
+      Successfully uninstalled langsmith-0.1.147
+  Attempting uninstall: langchain-core
+    Found existing installation: langchain-core 0.1.53
+    Uninstalling langchain-core-0.1.53:
+      Successfully uninstalled langchain-core-0.1.53
+Successfully installed langchain-core-0.3.76 langsmith-0.4.30

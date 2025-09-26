@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "book-recommender"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.10,<4.0"
+pandas = "^2.3.2"
+scikit-learn = "^1.5.2"
+langchain = "^0.3.27"
+langchain-community = "^0.3.29"
+openai = "^1.52.0"
+kagglehub = "^0.3.13"
+seaborn = "^0.13.2"
+matplotlib = "^3.10.6"
+langchain-text-splitters = "^0.3.11"
+langchain-openai = "^0.3.33"
+langchain-chroma = "^0.2.6"
+sentence-transformers = "^5.1.1"
+chromadb = "^1.1.0"
+huggingface-hub = {extras = ["hf-xet"], version = "^0.35.1"}
+tqdm = "^4.67.1"
+gradio = "^5.47.0"
+langchain-huggingface = "^0.3.1"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
